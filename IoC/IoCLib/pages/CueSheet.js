@@ -1,6 +1,6 @@
 
 //CueSheet Entry Page 
-class CueEntryPage extends SalesforcePage {
+class CueEntryPage extends LoginPage {
   constructor (options = {}) {
     super(options)
   }
@@ -50,7 +50,7 @@ class CueEntryPage extends SalesforcePage {
 }
 
 
-class CPAEntryPage extends SalesforcePage {
+class CPAEntryPage extends LoginPage {
   //for composer producer data entry 
 }
 

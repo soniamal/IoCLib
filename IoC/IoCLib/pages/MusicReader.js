@@ -1,6 +1,6 @@
 const SalesforcePage = require('./LoginPage')
 //const Constants = require('../constants/apar-pay-requests-page')
-class MusicReader extends SalesforcePage {
+class MusicReader extends LoginPage {
   constructor (options = {}) {
     super(options)
   }
